@@ -17,7 +17,7 @@ class Civil(Walk):
         else:
             self.rapidez = 2.5
         
-class Civil(Walk):
+class Guia(Walk):
     def __init__(self, unique_id: int, posIni, pos, posFin, model, puntoEncuentro, moore):
         super().__init__(unique_id, model, pos, moore = moore)
         self.pos = pos
